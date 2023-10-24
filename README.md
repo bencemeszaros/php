@@ -79,7 +79,7 @@ $alice = new People(name: "Alice");
 $~$
 ### Dynamic properties
 
-Creating struct properties dynamically is not allowed. PHP 8 already deprecated the creation of dynamic properties and it will be removed in a future version. This struct library already throws a dynamic property error.
+Creating struct properties dynamically is not allowed. PHP 8 already deprecated the creation of dynamic properties and it will be removed in a future version. `Struct` already throws a dynamic property error.
 
 ```php
 class People extends Struct {
