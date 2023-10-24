@@ -136,7 +136,7 @@ $alice = new People(namee: "Alice"); //Uncaught ErrorException: "Creation of dyn
 ```
 
 $~$
-### Caveats and limitations
+## Caveats and limitations
 
 - Creating constant struct properties is not possible due to limitations in PHP:
     - using the const keyword is class level and not instance level
